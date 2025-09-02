@@ -41,8 +41,8 @@ Since inception, TOP has empowered organizations across the globe to **streamlin
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ihkokil/top-outsourcing-partners.git
-cd top-outsourcing-partners
+git clone https://github.com/ihkokil/TopOutsourcingPartners.git
+cd TopOutsourcingPartners
 ```
 
 ### 2. Install PHP & Node Dependencies
