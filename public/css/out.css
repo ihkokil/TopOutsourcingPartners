@@ -1,0 +1,96 @@
+.services-page-section.outsourcing {
+    padding: 100px 0;
+}
+.services-section.outsourcing {
+    margin: 0;
+    padding: 100px 0;
+}
+/* Partner Section */
+.partner-section {
+    background: #fff;
+    padding: 100px 0;
+}
+.container {
+    padding: 0;
+}
+
+.partner-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+.partner-text {
+    flex: 1;
+    text-align: left;
+}
+
+.partner-image {
+    flex: 1;
+    text-align: left;
+}
+
+.partner-wrapper img {
+    max-width: 100%;
+}
+
+.partner-wrapper h2 {
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.partner-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.partner-wrapper ul li {
+    margin-bottom: 10px;
+}
+
+/* ROI Section */
+.roi-section {
+    background: #f8fcff;
+    padding: 100px 0;
+}
+.roi-section .container {
+    padding: 0;
+}
+.roi-section h2 {
+    margin-bottom: 30px;
+}
+.roi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.roi-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.roi-card img {
+    width: 60px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.roi-card h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.roi-card p {
+    font-size: 20px;
+    color: #555;
+}
