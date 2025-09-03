@@ -23,25 +23,25 @@
 <section class="services-cards">
     <!-- Service Cards Grid -->
     <div class="container services-grid">
-        <div class="feature-box animate__animated animate__flipInY animate__delay-1s" data-target="#bookkeeping">
+        <div class="feature-box finance animate__animated animate__flipInY animate__delay-1s" data-target="#bookkeeping">
             <img src="{{ asset('images/finance/frame1.svg') }}" alt="Bookkeeping">
-            <h4>Bookkeeping & Payroll Management</h5>
+            <h1>Bookkeeping & Payroll Management</h1>
         </div>
-        <div class="feature-box animate__animated animate__flipInY animate__delay-1s" data-target="#cfo-services">
+        <div class="feature-box finance animate__animated animate__flipInY animate__delay-1s" data-target="#cfo-services">
             <img src="{{ asset('images/finance/frame2.svg') }}" alt="CFO Services">
-            <h4>CFO Services (Virtual & On-Demand)</h5>
+            <h1>CFO Services (Virtual & On-Demand)</h1>
         </div>
-        <div class="feature-box animate__animated animate__flipInY animate__delay-1s" data-target="#ap-management">
+        <div class="feature-box finance animate__animated animate__flipInY animate__delay-1s" data-target="#ap-management">
             <img src="{{ asset('images/finance/frame3.svg') }}" alt="AP Management">
-            <h4>Accounts Payable (AP) Management</h5>
+            <h1>Accounts Payable (AP) Management</h1>
         </div>
-        <div class="feature-box animate__animated animate__flipInY animate__delay-2s" data-target="#ar-billing">
+        <div class="feature-box finance animate__animated animate__flipInY animate__delay-2s" data-target="#ar-billing">
             <img src="{{ asset('images/finance/frame4.svg') }}" alt="AR Billing">
-            <h4>Accounts Receivable (AR) & Billing Services</h5>
+            <h1>Accounts Receivable (AR) & Billing Services</h1>
         </div>
-        <div class="feature-box animate__animated animate__flipInY animate__delay-2s" data-target="#tax-compliance">
+        <div class="feature-box finance animate__animated animate__flipInY animate__delay-2s" data-target="#tax-compliance">
             <img src="{{ asset('images/finance/frame5.svg') }}" alt="Tax Compliance">
-            <h4>Tax Preparation & Compliance</h5>
+            <h1>Tax Preparation & Compliance</h1>
         </div>
     </div>
 </section>
@@ -177,7 +177,7 @@
 @section('footer')
 @include('components.footer')
 <script>
-    document.querySelectorAll('.feature-box').forEach(featureBox => {
+    document.querySelectorAll('.feature-box finance').forEach(featureBox => {
         featureBox.addEventListener('click', () => {
             const target = document.querySelector(featureBox.getAttribute('data-target'));
             if (target) {
